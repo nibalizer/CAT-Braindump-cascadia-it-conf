@@ -2,9 +2,10 @@
 
 \usepackage{beamerthemesplit}
 
-\title{Portland State Remote Operated Vehicle}
+\title{Zero to Root in 12 Months}
+\subtitle{Training and Utilizting Junior Sysadmins in Higher Education}
 \date{\today}
-\author{Spencer Krum, Patrick Bledsoe, Gregory Haynes}
+\author{Spencer Krum, William Van Hevelengin}
 
 \begin{document}
 
@@ -12,225 +13,114 @@
 
 % Slide 
 \section{Introduction}
-\subsection{The people}
+\subsection{Presenters}
 \frame 
 {
-    \frametitle{ROV Team}
+    \frametitle{Presenters}
         \begin{columns}[c]
         \column{.5\textwidth}
         \begin{center}
-        2010 Team at regionals \\
+        Spencer Krum\\
+        nibz@cat.pdx.edu\\
         \end{center}
-        \includegraphics[width=1\textwidth]{grouppic2010.jpg}
+        \includegraphics[width=1\textwidth]{spencer.jpg}
         
         \column{.5\textwidth}
         \begin{center}
-        2011 Team at a meeting \\
+        William Van Hevelengin\\
+        blkperl@cat.pdx.edu\\
         \end{center}
-        \includegraphics[width=1\textwidth]{grouppic2011.jpg}
+        \includegraphics[width=1\textwidth]{blkperl.jpg}
         \end{columns}
-%%    \textbf{2009}
-%%    \begin{itemize}
-%%        \item Amen Kester
-%%        \item Art Aldridge
-%%        \item Jeff Doghety
-%%    \end{itemize}
-%%    \textbf{2010}
-%%    \begin{itemize}
-%%        \item Greg Haynes
-%%        \item Patrick Bledsoe, Connor O'Connel,  Kris Sims, Amber Lauer, Shar Smith, Sammie Page, Spencer Krum, Jeff Doughtey
-%%        \item Keith Parker, Philip Witham, Kristine Summerfield
-%%        \item \textbf{Faculty:} Dr. Erik S\'anchez, Dr. Bart Massey
-%%    \end{itemize}
 }
-
-%\subsection{Sponsors}
-%\frame
-%{
-%    \frametitle{A really, really big thankyou}
-%    \begin{columns}[t]
-%    \column{.5\textwidth}
-%    \begin{itemize}
-%        \item Bill Feyerherm
-%        \item Erik S\'anchez
-%        \item Sunstone Circuits
-%        \item TAP Plastics
-%        \item Derek Nowak
-%        \item Jane Bloom
-%        \item Dept. of Physics
-%        \item Bart Massey
-%        \item Parallax
-%        \item Hoffman Construction
-%        \item SolidWorks
-%    \end{itemize}
-%    \column{.5\textwidth}
-%    \begin{itemize}
-%        \item Free Geek
-%        \item Drake Mitchel
-%        \item Eric Bodegom
-%        \item The CAT
-%        \item Society of Physics Students
-%        \item Allison Whited
-%        \item Suzzane Flores
-%        \item Masseh College of Engineering and Computer Science?
-%    \end{itemize}
-%    \end{columns}
-%}
-
-%%%%%%\subsection{A bit of history - 2009}
-%\frame
-%{
-%    \frametitle{ROV 2009}
-%
-%{\bf PSU-ROV 2009}
-%{\it Total UROV cost: \$481.10}
-%
-%In 2009, the Portland State University ROV team sent three students and one mentor to Boston, Massachusetts, where the underwater vehicle did not pass the safety inspection due to unforeseen electrical difficulties. The robot was unable to participate in the competition. The team received 0/300 mission points and 80.67/500 for the total score(mostly for the technical report), ranking 28th. 
-%
-%}
-%
-%\subsection{A bit of history - 2010}
-%\frame
-%{
-%    \frametitle{ROV 2010}
-%    
-%
-%\noindent
-%{\bf PSU-ROV 2010}
-%{\it Total UROV cost: \$2496.06}
-%
-%In June of 2010, the Portland State Robotics Team completed an underwater remotely operated vehicle (UROV) to compete in the Marine Advancement for Technology Education (MATE) Center's annual international competition. Out of over four hundred applicants for the combined competition classes, the Portland Sate University ROV team passed the local qualification round and went on to participate in the international competition. 
-%Five students and two mentors went to Hilo, Hawaii to compete. The 2010 ROV received 70/300 mission points and 216/500 total points, 
-%ranking 18th out of 26 international teams. The team learned and demonstrated the ability to produce a working machine under budget and time constraints.
-%
-%}
-% Slide
-\subsection{History}
+% Slide 
+\subsection{Agenda}
 \frame
 {
-    \frametitle{ROV 2009 and 2010}
+    \frametitle{Agenda}
     \begin{itemize}
-        \item 2009 and 2010
-        \item Underwater Remote Operated Vehicle
-        \item Marine Advancement for Technology Education (MATE) Center
-        \item 2009 - Boston, Mass. - 28th
-        \item 2010 - Hilo, Hawaii - 18th
-        \item No members of the 2009 team remain, the torch has been passed
-        \item Switched away from MATE in 2011, seeking new challenges
+        \item Computer Action Team introduction and history
+        \item Braindump progradm
+        \item Utilization
+        \item Personal Stories
     \end{itemize}
 }
 
 % Slide
-\section{IARC}
-\subsection{The Contest}
+\section{Computer Action Team}
+\subsection{Stats}
 \frame
 {
-    \frametitle{International Aerial Robotics Competition}
-
+    \frametitle{Stats}
     \begin{itemize}
-        \item Mission
-            \begin{itemize}
-                \item Covertly infiltrate a secret installation
-                \item Recover and replace USB stick without being detected
-            \end{itemize}
-        \item Rules
-            \begin {itemize}
-                \item 10 Minutes
-                \item Cannot Land
-                \item Completely Autonomous
-            \end {itemize}
-        \item IARC
-            \begin{itemize}
-                \item 6th IARC Misson in about 20 years
-                \item 1k entry fee(hopefully get waived), 20k grand prize
-                \item Mission went uncompleted last year
-                \item Designed so that ``No currently existing craft can complete the mission''
-                \item AUVSI, Association for Unmanned Vehicle Systems International
-            \end{itemize}
+        \item 4 Buildings
+        \item 5K users
+        \item 600 Workstations, 100 Server
+        \item 7 general use computer labs
+        \item Manage hundreds of commercial and OSS software pkgs
+        \item 1854 active networking jacks
+        \item 2x10 Gigabit Ethernet links to the internet
     \end{itemize}
+
 }
 
-%%%%% Slide
-%%%%\subsection{Example Installation}
-%%%%\frame
-%%%%{
-%%%%    \frametitle{Example Secret Installation}
-%%%%    \includegraphics[width=1\textwidth]{example_base.png}
-%%%%    
-%%%%}    
-% Slide
-
-\subsection{PDX-ROV 2011}
+\subsection{Operating Systems}
 \frame
 {
-    \frametitle{The very basics of the plan}
-    \begin{columns}[c]
-    \column{.5\textwidth}
+    \frametitle{Operating Systems}
     \begin{itemize}
-        \item Quadrotor
-        \item Mapping and Octrees
-        \item Perform SLAM
-        \item AI
-    \end{itemize}
-    \includegraphics[width=1\textwidth]{quadrotor_crop.png}
-    \column{.5\textwidth}
-    \includegraphics[width=1\textwidth]{trig.jpg}
-    \\
-    \includegraphics[width=.1\textwidth]{octree_cropped.png}
-    \includegraphics[width=.4\textwidth]{rtree.png}
-    \end{columns}
-}
-
-% Slide
-\subsection{Leveraging Technology}
-\frame
-{
-    \frametitle{Using school and internet resources to increase efficiency}
-    \includegraphics[width=.3\textwidth]{tech/wiki.png}
-    \includegraphics[width=.3\textwidth]{tech/google_group.png}
-    \includegraphics[width=.3\textwidth]{tech/git.png}
-    \\  
-    \includegraphics[width=.3\textwidth]{tech/irc.png}
-    \includegraphics[width=.3\textwidth]{tech/tickets.png}
-    \includegraphics[width=.3\textwidth]{tech/budget.png}
-
-}
-
-% Slide
-\section{Results Since Winter}
-\subsection{Flight}
-\frame
-{
-    \frametitle{Close, but not there yet}
-    \begin{itemize}
-        \item Quadrotor mechanical done
-        \item Capable of brief flights
-        \item Closed loop stabilization in `tweaking' phase
-        \item Craft takes off, hovers for a few seconds, `lands'
-        \item Need floating point unit
-            \begin{itemize}
-                \item Complexity bump
-            \end{itemize}
-        \item 3 PCBs are in the works
-            \begin{itemize}
-                \item Sensor/control board has been prototyped and built once already
-                \item Power board has been prototyped 
-                \item ESC board has been whiteboarded
-            \end{itemize}
+        \item Windows
+        \item Ubuntu
+        \item RedHat/Centos
+        \item Solaris/Derviatives
     \end{itemize}
 }
 
 % Slide
-\subsection{Navigation}
+\subsection{CAT Services}
 \frame
 {
-    \frametitle{Pieces have moved forward, much remains to be done}
+    \frametitle{CAT Services}
     \begin{itemize}
-        \item Hokuyo conversation demonstrated
-        \item Pandaboard/Beagleboard flashed,configured
-        \item Messaging code(0mq) has been written, but needs to be fleshed out
-        \item SLAM(Tinyslam) has been investigated, but needs to be worked on a lot
-        \item AI(A*?) Hasn't been touched, needs a ton of work
+        \item Web
+        \item License management
+        \item Network homedirs
+        \item Bulk storage over NFS/Samba
+        \item Database (mysql/postgres)
+        \item Project Management & VCS
+        \item Backups
+        \item VPN
+        \item Networking
+        \item Mail
+    \end{itemize}
+
+}
+
+% Slide
+\section{Braindump}
+\subsection{Background}
+\frame
+{
+    \frametitle{Background}
+    \begin{itemize}
+        \item Founded in early 90s by Janaka Jayawardena, Director of IT for Engineering
+        \item Originally a means by Janaka to grow UNIX hackers that got out of hand.
+        \item In-house apprenticeship program to bring student volunteers into sysadmin and other IT roles.
+        \item Hire them later (once they know what they are doing)
+    \end{itemize}
+}
+
+% Slide
+\subsection{Particulars}
+\frame
+{
+    \frametitle{Particulars}
+    \begin{itemize}
+        \item 1+ yr program
+        \item Open to any PSU student/staff
+        \item Friday nights, 6pm-10pm
+        \item 4 hours helpdesk volunteering a week
+        \item Time, as needed, spent working on learning and projects.
     \end{itemize}
 }
 
